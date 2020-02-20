@@ -8,13 +8,13 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 public class CorrentistaTeste {
 
     @Test
-     public void criarCorrentista() {
+    public void criarCorrentista() {
         Correntista c1 = new Correntista();
         assertNotNull(c1);
     }
 
     @Test
-     public void atributosCorrentista (){
+    public void atributosCorrentista (){
         Correntista c1 = new Correntista();
         c1.nome = "Guilherme";
         c1.codigo = "5459";
